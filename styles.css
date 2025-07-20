@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    width: 1440px;
+    height: 800px;
+    font-family: Inter;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+.container{
+    margin: -2px 0 0 -5px;
+    width: 429px;
+    height: 305px;
+    border-radius: 8px 0  0  8px;
+    background-color: hsl(244, 37%, 16%);
+    padding: 70px 70px;
+}
+.card-img{
+    background-image: url(images/image-header-desktop.jpg);
+    width: 539px;
+    height: 445px;
+    background-size: contain;
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: color;
+    background-blend-mode: multiply;
+    margin: -2px 0 0 0px;
+    border-radius: 0 8px  8px  0;
+}
+.card-title{
+    margin-left: 2px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.paragraph{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+    line-height: 25px;
+    width: 350px;
+    margin: 26px 1px;
+    letter-spacing: 0.1px;
+}
+.stats-numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 72px 0 4px 2px;
+    letter-spacing: 1px;
+
+}
+.stats-names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 347px;
+    height: 20px;
+    font-family: Lexend Deca;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0;
+}
